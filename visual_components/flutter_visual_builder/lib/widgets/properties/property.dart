@@ -103,10 +103,10 @@ class AlignmentProperty extends Property<Alignment> {
 
 
 // TODO all properties should be able to hold null
-class ColorProperty extends Property<Color> {
+class ColorsProperty extends Property<Color> {
 
-  ColorProperty({Color color}): super(color);
-  ColorProperty.fromMap(Map map): super(Color(map["color"]));
+  ColorsProperty({Color color}): super(color);
+  ColorsProperty.fromMap(Map map): super(Color(map["color"]));
 
 
   @override

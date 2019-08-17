@@ -47,6 +47,6 @@ class _TextComponentState extends VisualState<TextComponent> {
   Map<String, Property> initRemoteValues() => {
     'text': StringProperty(widget.text),
     'fontSize': DoubleProperty(data: 20),
-    'fontColor': ColorProperty(color: Colors.black),
+    'fontColor': ColorsProperty(color: Colors.black),
   };
 }

@@ -59,7 +59,7 @@ class _VisualContainerState extends VisualState<VisualContainer> {
 
   @override
   Map<String, Property> initRemoteValues() => {
-    'color': ColorProperty(color: widget.color),
+    'color': ColorsProperty(color: widget.color),
     'width': DoubleProperty(data: widget.width),
     'height': DoubleProperty(data: widget.height),
     'alignment': AlignmentProperty(alignment: Alignment.center),

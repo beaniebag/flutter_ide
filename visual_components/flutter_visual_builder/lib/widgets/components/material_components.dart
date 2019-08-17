@@ -245,7 +245,7 @@ class _VisualScaffoldState extends VisualState<VisualScaffold> {
 
   @override
   Map<String, Property> initRemoteValues() => {
-    'backgroundColor': ColorProperty(color: widget.backgroundColor),
+    'backgroundColor': ColorsProperty(color: widget.backgroundColor),
   };
 }
 

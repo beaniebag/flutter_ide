@@ -28,7 +28,7 @@ Property convertToProperty(String data) {
     case PropertyType.alignment:
       return AlignmentProperty.fromMap(pMap);
     case PropertyType.color:
-      return ColorProperty.fromMap(pMap);
+      return ColorsProperty.fromMap(pMap);
     case PropertyType.double:
       return DoubleProperty.fromMap(pMap);
     case PropertyType.edgeInserts:

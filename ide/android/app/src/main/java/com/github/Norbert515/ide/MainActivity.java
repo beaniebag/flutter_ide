@@ -1,4 +1,4 @@
-package com.github&#x2F;Norbert515.ide;
+package com.github.Norbert515.ide;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

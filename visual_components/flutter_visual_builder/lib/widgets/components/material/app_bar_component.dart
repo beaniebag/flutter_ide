@@ -91,7 +91,7 @@ class _AppBarComponentState extends VisualState<AppBarComponent> {
   @override
   // TODO implement
   Map<String, Property> initRemoteValues() => {
-    'backgroundColor': ColorProperty(color: widget.backgroundColor),
+    'backgroundColor': ColorsProperty(color: widget.backgroundColor),
     'centerTitle': BoolProperty(widget.centerTitle),
     'elevation': DoubleProperty(data: widget.elevation)
   };

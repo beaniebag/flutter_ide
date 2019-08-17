@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github&#x2F;Norbert515.ide">
+    package="com.github.Norbert515.ide">
 
     <!-- The INTERNET permission is required for development. Specifically,
          flutter needs it to communicate with the running application
